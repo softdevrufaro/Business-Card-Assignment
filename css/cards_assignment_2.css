@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(133, 17, 228, 0.767);
+}
+.card {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Love Light", cursive;
+  font-style: normal;
+  background: url(https://images.pexels.com/photos/9993176/pexels-photo-9993176.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.panel-3-4 {
+  height: 75%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.panel-1-4 {
+  height: 25%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.795);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.btn {
+  border: solid 1px black;
+  font-size: 30px;
+  font-family: "Love Light", cursive;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+  border-color: white;
+  color: white;
+  font-size: 40px;
+}
